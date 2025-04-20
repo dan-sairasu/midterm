@@ -4,30 +4,34 @@
 this is a Python-based booking system for Out Midterm Examination. The system allows users to manage 
 
 ## Features
-- Object-Oriented Design
-- Destination Management
-- Family Booking Handling
-- Dynamic Cost Calculations
-- Booking Summary Display
+- Admin Terminal
+- Client UI
+- Booking Management
+
 
 ## Getting Started
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.12 or higher
 
 ### Installation
 1. Clone the repository:
-   ```
-   git clone https://github.com/nurulashraf/python-travel-booking-system.git
-   ```
+```
+git clone https://github.com/dan-sairasu/midterm.git
+```
 2. Change to the project directory:
-   ```
-   cd python-travel-booking-system
-   ```
-3. Run the booking system:
-   ```
-   python booking_system.py
-   ```
+```
+cd midterm
+```
+3. Change to backend:
+```
+cd backend
+```
+4. Run the app backend
+```
+python app.py
+```
+
 
 ## Usage
 1. When prompted, enter the family name.
