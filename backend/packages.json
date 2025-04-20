@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "destination": "Bali",
+    "price": 800,
+    "duration": "5 days"
+  },
+  {
+    "id": 2,
+    "destination": "Tokyo",
+    "price": 1200,
+    "duration": "7 days"
+  },
+  {
+    "id": 3,
+    "destination": "Indonesia",
+    "price": 500,
+    "duration": "5"
+  }
+]
