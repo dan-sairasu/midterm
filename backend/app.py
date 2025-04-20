@@ -33,7 +33,6 @@ def middleware():
         print(f"📦 Loaded {len(g.packages)} packages.")
 
 
-
 @app.after_request
 def after_middleware(response):
     duration = time.time() - g.get('start_time', time.time())

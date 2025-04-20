@@ -16,5 +16,11 @@
     "destination": "Indonesia",
     "price": 500,
     "duration": "5"
+  },
+  {
+    "id": 4,
+    "destination": "Philippines",
+    "price": 500,
+    "duration": "7"
   }
 ]
