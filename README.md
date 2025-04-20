@@ -23,6 +23,7 @@ git clone https://github.com/dan-sairasu/midterm.git
 ```
 cd midterm
 ```
+### Run the backend
 3. Change to backend:
 ```
 cd backend
@@ -31,6 +32,16 @@ cd backend
 ```
 python app.py
 ```
+### Run the Admin
+5. navigate to admin folder
+```
+cd admin
+```
+6. Run the admin file
+```
+python admin.py
+```
+### Run the Client UI
 
 
 ## Usage
