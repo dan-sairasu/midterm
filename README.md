@@ -42,14 +42,25 @@ cd admin
 python admin.py
 ```
 ### Run the Client UI
+7. navigate to client folder
+```
+cd client
+```
+8. Run the client on web browser
+```
+localhost/midterm/client
+```
+
 
 
 ## Usage
-1. When prompted, enter the family name.
-2. Select a destination option (1-3).
-3. Input the number of adults and children in the family.
-4. Repeat the process for additional families or type 'quit' to finish.
-5. The system will display the total cost for each family in Malaysian Ringgit (MYR).
+### Admin on Terminal
+1. User must run the admin python file
+2. User must enter the admin username and password to login
+3. User can add new package, delete and view all packages
+### Client on Web Browser
+1. User must run the client on web browser
+2. User can view all packages offered
 
 ## Project Structure
 The project consists of the following key components:
