@@ -1,7 +1,7 @@
 # Travel Booking System
 
 ## Overview
-this is a Python-based booking system for Out Midterm Examination. The system allows users to manage 
+this is a Python-based booking system for our Midterm Examination. The system allows users to manage 
 
 ## Features
 - Admin Terminal
