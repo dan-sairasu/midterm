@@ -9,7 +9,7 @@
   <div class="container py-5">
     <h1 class="mb-4 text-center">🌍 Available Travel Packages</h1>
 
-<!-- Search & Filter -->
+
 <div class="row mb-4">
   <div class="col-md-3">
     <select id="filterType" class="form-select">
@@ -31,7 +31,7 @@
 
 
     <div class="row" id="packages">
-      <!-- Packages will be displayed here -->
+
     </div>
   </div>
 

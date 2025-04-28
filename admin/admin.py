@@ -1,11 +1,12 @@
 import json
 
-# --- Load Admin Credentials ---
+
+
 def load_admins():
     with open("admins.json") as f:
         return json.load(f)
 
-# --- Admin Login ---
+
 def admin_login():
     print("🛡️ Admin Login")
     username = input("Username: ")
@@ -20,7 +21,7 @@ def admin_login():
     print("❌ Invalid credentials.")
     return False
 
-# --- Load & Save Packages ---
+
 def load_packages():
     with open('../backend/packages.json') as f:
         return json.load(f)
@@ -29,7 +30,7 @@ def save_packages(packages):
     with open('../backend/packages.json', 'w') as f:
         json.dump(packages, f, indent=2)
 
-# --- Admin Actions ---
+
 def add_package():
     packages = load_packages()
     destination = input("Destination: ")
@@ -61,7 +62,7 @@ def delete_package():
         save_packages(filtered)
         print("🗑️ Package deleted.")
 
-# --- Admin Menu ---
+
 def admin_menu():
     while True:
         print("\n🧭 Admin Menu")
@@ -82,7 +83,7 @@ def admin_menu():
         else:
             print("❌ Invalid option.")
 
-# --- Main Entry Point ---
+
 if __name__ == "__main__":
     if admin_login():
         admin_menu()

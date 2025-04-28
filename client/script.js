@@ -41,13 +41,13 @@ fetch('http://localhost:5000/api/packages')
     `;
   });
 
-// Events
+
 document.getElementById('filterType').addEventListener('change', switchFilterType);
 document.getElementById('search').addEventListener('input', filterPackages);
 document.getElementById('min').addEventListener('input', filterPackages);
 document.getElementById('max').addEventListener('input', filterPackages);
 
-// Toggle filter input mode
+
 function switchFilterType() {
   const type = document.getElementById('filterType').value;
   const textInput = document.getElementById('textInputWrapper');
@@ -76,7 +76,7 @@ function filterPackages() {
     const min = parseFloat(document.getElementById('min').value) || 0;
     const max = parseFloat(document.getElementById('max').value) || Infinity;
     filtered = allPackages.filter(pkg => {
-      const numDays = parseInt(pkg.duration); // assumes "5 days", "3", etc.
+      const numDays = parseInt(pkg.duration); 
       return !isNaN(numDays) && numDays >= min && numDays <= max;
     });
   } else {
