@@ -97,4 +97,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 - this is a midterm exam 
 - Dan Cyrus geralde
-- Pauline B. Ramos / Freeloader
+- Pauline B. Ramos
